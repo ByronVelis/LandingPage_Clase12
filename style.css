@@ -1,0 +1,162 @@
+@charset "utf-8";
+#titulo{
+ background-color: #ff4c68;
+}
+   
+   body{
+       font-family:'Roboto', sans-serif;
+       background-color: #eb6a7d;
+   }
+   
+   
+   .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+   }
+   
+   .navbar {
+    padding-bottom: 0 0 4.5rem;
+   }
+   
+    h1 {
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 900;
+       font-size: 3.5rem;
+       line-height: 1.5;
+   }
+    h2 {
+       font-family: 'Montserrat';
+       font-weight: 900;
+       font-size: 3.0rem;
+       line-height: 1.5;
+   }
+   
+   
+   
+   h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+   }
+   
+   p{
+    color: #cecece;
+   }
+
+   p.dos{
+    color: #7c7c7c;
+   }
+
+  h6{
+      color: #9b9b9b
+  } 
+   .container-fluid{
+    padding: 3% 15%;
+   }
+   
+   #caracteristicas {
+    padding: 7% 15%;
+    background-color: #ff8585;
+   } 
+   
+   .caja-caracteristica{
+    text-align: center;
+    padding: 5%;
+   }
+   
+   .title-image{
+       width: 60%;
+       transform: rotate(25deg);
+       position: absolute;
+       right: 30%;
+   }
+   
+   .icon {
+    color: #ff4c68;
+    margin-bottom: 1rem;
+   }
+   
+   .icon:hover{
+    color: #ef8172;
+   }
+   
+   #testimonios {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff8e80;
+    color: #fff;
+   }
+   
+   .img-testimonio{
+    width: 10%;
+    border-radius: 25%;
+    margin: 20px;
+   }
+   
+   #prensa{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+   }
+   .carousel-item{
+    padding: 7% 15%;
+   }
+   .logo-prensa {
+    width: 15%;
+    margin: 20px 20px 50px;
+   }
+   
+   .download-button {
+    margin: 5% 3% 5% 0;
+   }
+   
+   .nav-item {
+    padding: 0 18px;
+   }
+   .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-weight: 100;
+   }
+
+   #precios {
+    padding: 100px;
+    text-align: center;
+   }
+
+   .precios-col {
+    padding: 3% 2%;
+   }
+
+   #caracteristicas {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   }
+
+   @media (max-width: 1028px) {
+       }
+    #titulo{
+    text-align: center;
+    }
+
+    #cta{
+        background-color: #ff4c68;
+        color: #fff;
+        padding: 7% 15%;
+        text-align: center;
+       }
+
+       .encabezado-cta{
+        font-family: 'Montserrat';
+        font-weight: 900;
+        font-size: 3.5rem;
+        line-height: 1.5;
+       }
+
+       #footer {
+        text-align: center;
+        background-color: #ff4c68;
+       }
